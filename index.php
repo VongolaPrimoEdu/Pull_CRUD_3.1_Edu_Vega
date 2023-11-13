@@ -7,11 +7,11 @@
 </head>
 <body>
     <h1> Mi tienda online </h1>
-    <a href="">Nuevo Producto </a><br><br>
+    <a href="crearproducto.php">Nuevo Producto </a><br><br>
 
-    <a href="">Modificar Producto </a>
-    <a href="">Consultar Productos </a>
-    <a href="">Borrar productos </a>
+    <a href="edita_producto.php">Modificar Producto </a>
+    <a href="listado_productos.php">Consultar Productos </a>
+    <a href="elimina_producot.php">Borrar productos </a>
    
     
 </body>
