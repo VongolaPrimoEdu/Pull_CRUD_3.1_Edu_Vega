@@ -11,7 +11,7 @@
 
     <a href="edita_producto.php">Modificar Producto </a>
     <a href="listado_productos.php">Consultar Productos </a>
-    <a href="elimina_producot.php">Borrar productos </a>
+    <a href="elimina_producto.php">Borrar productos </a>
    
     
 </body>
