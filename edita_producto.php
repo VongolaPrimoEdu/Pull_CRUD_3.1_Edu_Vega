@@ -1,6 +1,12 @@
 <?php
 // Archivo: edita_producto.php
+session_start();
 
+// Verifica si el usuario ha iniciado sesión
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: form_login.php"); // Redirige al formulario de inicio de sesión
+    exit;
+}
 // Conexión a la base de datos (reemplaza con tus propios datos)
 $servername = "localhost";
 $username = "mitiendaonline";
